@@ -1,0 +1,43 @@
+# Ignore Node.js build artifacts
+/node_modules
+# Ignore logs
+/logs
+# Ignore runtime data
+pids
+# Ignore OS files
+.DS_Store
+._*
+*.orig
+*.pyc
+*.pyo
+*.egg
+*.exe
+*.dll
+*.so
+*.db
+*.sqlite
+*.log
+*.cache
+*.pid
+*.wig
+*.sublime-project
+*.tmproj
+*.swp
+*.swo
+*.vs
+*.pbx
+*.lock
+profile.osx
+.localstorage/
+# Ignore user-specific files
+.svn/entries
+*.suo
+*.nb
+*.db
+*.db-journal
+*.dot
+*.userprefs
+*.webapp
+# Ignore temporary SQLite files for the best performance
+.sqlitedb
+.sqlitedb-journal
