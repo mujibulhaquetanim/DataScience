@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx --watch src/generating-multi-model-phising_emails.ts"
+    "dev": "tsx --watch src/index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.27.0",
   "dependencies": {
+    "@aws-sdk/client-bedrock": "^3.958.0",
     "@aws-sdk/client-bedrock-runtime": "^3.958.0"
   },
   "devDependencies": {
